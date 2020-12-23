@@ -2,9 +2,12 @@
 
 #header{
     height: 80vh;
+    max-width: 100%;
+    width: 100%;
     background-image:url("https://danblog.tokyo/img/main.png");
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
 }
 .container{
     max-width: 1100px;
@@ -12,20 +15,26 @@
     display: flex;
     justify-content: space-between;
     padding-top: 30px;
+   
 }
 .header-logo img{
     height: 60px;
 }
 .header-list { 
     display: flex;
+    
 }
 .header-list li{
+    display: flex;
     line-height: 60px;
     margin:0 30px;
     font-size: 18px;
     font-family: 'Noto Serif JP', serif;
+    
 }
+
 .header-txt h1{
+    width: 100%;
     position: absolute;
     top:40%;
     left: 50%;
@@ -68,12 +77,16 @@
     margin-bottom: 90px;
     font-family: 'Noto Serif JP', serif;
 }
+.build{
+    max-width: 100%;
+    width: 100%;
+}
 .left{
     width: 50%;
 }
 .left img{
     width: 430px;
-    margin: 0 60px;
+    
 }
 .left h2{
     text-align: center;
@@ -89,12 +102,12 @@
 }
 .section{
     max-width: 1100px;
-    margin: 0 auto;
     padding: 90px 0;
+    margin: 0 auto;
 }
 .left img{
     width: 430px;
-    margin: 0 60px;
+    
 }
 .left-img img{
     display: block;
@@ -104,6 +117,10 @@
 }
 .build{
     display: flex;
+    margin: 0 auto;
+}
+.right{
+    width: 50%;
 }
 .right h2{
     text-align: center;
@@ -119,12 +136,13 @@
 }
 .right img{
     width: 430px;
-    margin: 0 60px;
+    margin: 0 auto;
+   
 }
 .right-img img{
     display: block;
     width: 300px;
-    margin: 0 auto;
+    text-align: center;
     margin-top: 15px;
 }
 .section-text{
