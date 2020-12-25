@@ -107,13 +107,14 @@
 }
 .left img{
     width: 430px;
-    
+    margin: 0 60px;
 }
 .left-img img{
     display: block;
     width: 300px;
     margin: 0 auto;
     margin-top: 15px;
+
 }
 .build{
     display: flex;
@@ -137,12 +138,12 @@
 .right img{
     width: 430px;
     margin: 0 auto;
-   
+   margin: 0 60px;
 }
 .right-img img{
     display: block;
     width: 300px;
-    text-align: center;
+    margin: 0 auto;  
     margin-top: 15px;
 }
 .section-text{
